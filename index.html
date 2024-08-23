@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/nav.css" />
+    <link rel="stylesheet" href="Style/navMedia.css" />
+    <title>CCC</title>
+  </head>
+  <body>
+    <div class="top"></div>
+    <label id="overlay" for="sidebar"></label>
+    <nav>
+      <input type="checkbox" name="ham" id="sidebar" />
+      <label for="sidebar"
+        ><ion-icon name="menu-outline" class="white open-sidebar"></ion-icon>
+      </label>
+
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="Images/logo.png" alt="TEDx Logo" />
+          </a>
+        </div>
+
+        <ul class="menu">
+          <label for="sidebar"
+            ><ion-icon
+              name="close-outline"
+              class="white close-sidebar"
+            ></ion-icon>
+          </label>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Offering</a></li>
+          <li><a href="#" id="current">Apply Now</a></li>
+          <li id="contact"><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="JavaScript/nav.js"></script>
+  </body>
+</html>

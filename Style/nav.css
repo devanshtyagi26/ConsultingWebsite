@@ -83,18 +83,22 @@ nav ul label ion-icon {
   margin: 0 0.9375rem;
 }
 
+.navbar .menu #current {
+  color: #111b47;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
 .navbar .menu li a {
   color: black;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 300;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .navbar .menu li a:hover {
   color: #111b47;
-  font-weight: 700;
   text-decoration-line: underline;
 }
 
@@ -108,7 +112,7 @@ nav ul label ion-icon {
   text-decoration: none;
   border-radius: 0.625rem;
   background: #111b47;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 #contact a {
   color: #fff !important;
@@ -119,6 +123,7 @@ nav ul label ion-icon {
 }
 #contact a:hover {
   color: #fff;
+  text-decoration-line: none;
 }
 .button a {
   position: fixed;

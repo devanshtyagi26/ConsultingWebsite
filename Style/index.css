@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 100vw;
+  height: calc(100vh - 4.6875rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+#hero .content {
+  width: 33.71088rem;
+  height: 24.8125rem;
+  flex-shrink: 0;
+  margin: 2rem 0 5rem 5rem;
+}
+#hero .content h2 {
+  color: #091133;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Roboto;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.125rem;
+  letter-spacing: 0.0625rem;
+}
+
+#hero .content p {
+  color: #505f98;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin: 1.1rem 0 2.5rem 0;
+}
+
+#hero img {
+  height: 80vh;
+  flex-shrink: 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.buttons button {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem;
+  outline: none;
+  border: none;
+  border-radius: 0.125rem;
+  background: #111b47;
+  width: 11.8125rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+}
+
+.buttons .contact {
+  color: #111b47;
+  background-color: white;
+  border: 1px solid #111b47;
+}
+
+#services {
+  background: #fafafa;
+  flex-direction: column;
+  padding-top: 4rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+#services h1 {
+  color: #111b47;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Poppins;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.375rem;
+}
+
+#services .data {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#services .data .navigate {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#services .data .navigate button {
+  width: 22rem;
+  height: 4rem;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  background: #5a6db6;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.375rem;
+}
+
+#services .data .navigate .active {
+  background: #111b47;
+}
+
+#services .data .content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 2rem;
+  color: #111b47;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.3rem;
+}
+
+#services .data .content .block {
+  display: flex;
+  flex-direction: column;
+}
+
+#services .data .content p {
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+#services .data .content p span {
+  color: #111b47;
+  font-weight: 700;
+}
